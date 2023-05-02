@@ -1,6 +1,7 @@
 [
 	{
-		"chefPicture": "https://example.com/chef1.jpg",
+		"id": 1,
+		"chefPicture": "https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5342.jpg?size=626&ext=jpg&uid=R51204066&semt=sph",
 		"chefName": "John Smith",
 		"yearsOfExperience": 10,
 		"numberOfRecipes": 50,
@@ -9,7 +10,8 @@
 		"country": "United States"
 	},
 	{
-		"chefPicture": "https://example.com/chef2.jpg",
+		"id": 2,
+		"chefPicture": "https://img.freepik.com/free-photo/female-chef-holding-wooden-spoon-whisk-rolling-pin-white-uniform-looking-cheery_176474-12639.jpg?size=626&ext=jpg&uid=R51204066&semt=sph",
 		"chefName": "Anna Lee",
 		"yearsOfExperience": 5,
 		"numberOfRecipes": 20,
@@ -18,7 +20,8 @@
 		"country": "United States"
 	},
 	{
-		"chefPicture": "https://example.com/chef3.jpg",
+		"id": 3,
+		"chefPicture": "https://img.freepik.com/free-photo/portrait-happy-male-chef-dressed-uniform_171337-5354.jpg?w=900&t=st=1683005015~exp=1683005615~hmac=59dd77c4b2c7af484bc4d88a1bd28ec396c38be4e0ad6678fe383043e3510673",
 		"chefName": "William Jones",
 		"yearsOfExperience": 8,
 		"numberOfRecipes": 30,
@@ -27,7 +30,8 @@
 		"country": "United States"
 	},
 	{
-		"chefPicture": "https://example.com/chef4.jpg",
+		"id": 4,
+		"chefPicture": "https://img.freepik.com/free-photo/female-chef-standing-with-crossed-arms-white-uniform-looking-happy_176474-13476.jpg?w=900&t=st=1683005375~exp=1683005975~hmac=cf592eb05252b4910390ca900f812ee548e31c584bbbecd04ce55636f38cfbf3",
 		"chefName": "Maria Perez",
 		"yearsOfExperience": 12,
 		"numberOfRecipes": 60,
@@ -36,7 +40,8 @@
 		"country": "United States"
 	},
 	{
-		"chefPicture": "https://example.com/chef5.jpg",
+		"id": 5,
+		"chefPicture": "https://img.freepik.com/free-photo/medium-shot-chef-holding-wooden-board_23-2148723277.jpg?w=900&t=st=1683005245~exp=1683005845~hmac=cd45291a39665d8ac5f29083805bd3003e191290fbf25736fb47879579cf0114",
 		"chefName": "David Kim",
 		"yearsOfExperience": 3,
 		"numberOfRecipes": 10,
@@ -45,7 +50,8 @@
 		"country": "United States"
 	},
 	{
-		"chefPicture": "https://example.com/chef6.jpg",
+		"id": 6,
+		"chefPicture": "https://img.freepik.com/free-photo/female-chef-white-uniform-pointing-finger-herself-looking-surprised_176474-13384.jpg?w=900&t=st=1683005511~exp=1683006111~hmac=14b9e65d6eda49365e386d934e0b310fa0187bdd495475096d31b8acd63971bd",
 		"chefName": "Emily Chen",
 		"yearsOfExperience": 6,
 		"numberOfRecipes": 25,
