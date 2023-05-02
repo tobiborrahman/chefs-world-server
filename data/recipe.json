@@ -1,68 +1,506 @@
-{
-	"id": 1,
-	"chefPicture": "https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5342.jpg?size=626&ext=jpg&uid=R51204066&semt=sph",
-	"chefName": "John Smith",
-	"yearsOfExperience": 10,
-	"numberOfRecipes": 5,
-	"likes": 500,
-	"viewRecipesButton": "https://example.com/chef1/recipes",
-	"country": "United States",
-	"recipes": [
-		{
-			"id": 1,
-			"recipeName": "Classic Beef Burger",
-			"description": "A juicy and delicious beef burger topped with your favorite toppings.",
-			"rating": 4.5,
-			"likes": 150
-		},
-		{
-			"id": 2,
-			"recipeName": "Grilled Chicken Salad",
-			"description": "A healthy and refreshing salad with grilled chicken and fresh vegetables.",
-			"rating": 4.2,
-			"likes": 100
-		},
-		{
-			"id": 3,
-			"recipeName": "Creamy Fettuccine Alfredo",
-			"description": "A classic Italian dish with a creamy and cheesy sauce served over fettuccine pasta.",
-			"rating": 4.8,
-			"likes": 200
-		},
-		{
-			"id": 4,
-			"recipeName": "Spicy Shrimp Tacos",
-			"description": "A delicious and spicy taco recipe with crispy shrimp, fresh salsa, and a creamy sauce.",
-			"rating": 4.6,
-			"likes": 180
-		},
-		{
-			"id": 5,
-			"recipeName": "Roasted Vegetable Lasagna",
-			"description": "A healthy and flavorful vegetarian lasagna with roasted vegetables and a creamy sauce.",
-			"rating": 4.4,
-			"likes": 120
-		},
-		{
-			"id": 6,
-			"recipeName": "Garlic Butter Shrimp",
-			"description": "A simple and flavorful shrimp recipe with garlic butter sauce.",
-			"rating": 4.3,
-			"likes": 90
-		},
-		{
-			"id": 7,
-			"recipeName": "Beef and Broccoli Stir-Fry",
-			"description": "A quick and easy stir-fry recipe with tender beef and fresh broccoli in a savory sauce.",
-			"rating": 4.1,
-			"likes": 80
-		},
-		{
-			"id": 8,
-			"recipeName": "Chicken and Mushroom Risotto",
-			"description": "A creamy and comforting risotto recipe with tender chicken and flavorful mushrooms.",
-			"rating": 4.7,
-			"likes": 220
-		}
-	]
-}
+[
+	{
+		"id": 1,
+		"chefPicture": "https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5342.jpg?size=626&ext=jpg&uid=R51204066&semt=sph",
+		"chefName": "John Smith",
+		"yearsOfExperience": 10,
+		"numberOfRecipes": 50,
+		"likes": 500,
+		"viewRecipesButton": "https://example.com/chef1/recipes",
+		"country": "United States",
+		"recipes": [
+			{
+				"id": 1,
+				"name": "Classic Cheeseburger",
+				"description": "A juicy, delicious burger topped with melted American cheese, lettuce, tomato, and onion, served on a toasted bun.",
+				"rating": 4.5,
+				"likes": 1200,
+				"image": "https://www.example.com/images/classic-cheeseburger.jpg"
+			},
+			{
+				"id": 2,
+				"name": "BBQ Pulled Pork Sandwich",
+				"description": "Slow-cooked pulled pork in a tangy BBQ sauce, served on a soft bun with coleslaw.",
+				"rating": 4.3,
+				"likes": 950,
+				"image": "https://www.example.com/images/pulled-pork-sandwich.jpg"
+			},
+			{
+				"id": 3,
+				"name": "New England Clam Chowder",
+				"description": "A creamy soup filled with tender clams, diced potatoes, and a hint of bacon.",
+				"rating": 4.7,
+				"likes": 1450,
+				"image": "https://www.example.com/images/clam-chowder.jpg"
+			},
+			{
+				"id": 4,
+				"name": "Fried Chicken",
+				"description": "Crispy fried chicken with a perfectly seasoned coating, served with your choice of sides.",
+				"rating": 4.2,
+				"likes": 870,
+				"image": "https://www.example.com/images/fried-chicken.jpg"
+			},
+			{
+				"id": 5,
+				"name": "Caesar Salad",
+				"description": "A classic salad with crisp romaine lettuce, parmesan cheese, croutons, and a creamy Caesar dressing.",
+				"rating": 4.4,
+				"likes": 1050,
+				"image": "https://www.example.com/images/caesar-salad.jpg"
+			},
+			{
+				"id": 6,
+				"name": "Mac and Cheese",
+				"description": "Creamy macaroni and cheese made with a blend of cheeses, baked to perfection.",
+				"rating": 4.6,
+				"likes": 1350,
+				"image": "https://www.example.com/images/mac-and-cheese.jpg"
+			},
+			{
+				"id": 7,
+				"name": "Beef Stew",
+				"description": "Hearty beef stew with tender chunks of beef, potatoes, carrots, and onions in a rich broth.",
+				"rating": 4.8,
+				"likes": 1600,
+				"image": "https://www.example.com/images/beef-stew.jpg"
+			},
+			{
+				"id": 8,
+				"name": "Grilled Cheese Sandwich",
+				"description": "A classic sandwich with melted cheddar cheese and toasted bread.",
+				"rating": 4.1,
+				"likes": 800,
+				"image": "https://www.example.com/images/grilled-cheese.jpg"
+			},
+			{
+				"id": 9,
+				"name": "Fried Catfish",
+				"description": "Crispy fried catfish with a light breading and served with tartar sauce.",
+				"rating": 4.0,
+				"likes": 750,
+				"image": "https://www.example.com/images/catfish.jpg"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"chefPicture": "https://img.freepik.com/free-photo/female-chef-holding-wooden-spoon-whisk-rolling-pin-white-uniform-looking-cheery_176474-12639.jpg?size=626&ext=jpg&uid=R51204066&semt=sph",
+		"chefName": "Anna Lee",
+		"yearsOfExperience": 5,
+		"numberOfRecipes": 20,
+		"likes": 200,
+		"viewRecipesButton": "https://example.com/chef2/recipes",
+		"country": "United States",
+		"recipes": [
+			{
+				"id": 1,
+				"name": "Classic Cheeseburger",
+				"description": "A juicy, delicious burger topped with melted American cheese, lettuce, tomato, and onion, served on a toasted bun.",
+				"rating": 4.5,
+				"likes": 1200,
+				"image": "https://www.example.com/images/classic-cheeseburger.jpg"
+			},
+			{
+				"id": 2,
+				"name": "BBQ Pulled Pork Sandwich",
+				"description": "Slow-cooked pulled pork in a tangy BBQ sauce, served on a soft bun with coleslaw.",
+				"rating": 4.3,
+				"likes": 950,
+				"image": "https://www.example.com/images/pulled-pork-sandwich.jpg"
+			},
+			{
+				"id": 3,
+				"name": "New England Clam Chowder",
+				"description": "A creamy soup filled with tender clams, diced potatoes, and a hint of bacon.",
+				"rating": 4.7,
+				"likes": 1450,
+				"image": "https://www.example.com/images/clam-chowder.jpg"
+			},
+			{
+				"id": 4,
+				"name": "Fried Chicken",
+				"description": "Crispy fried chicken with a perfectly seasoned coating, served with your choice of sides.",
+				"rating": 4.2,
+				"likes": 870,
+				"image": "https://www.example.com/images/fried-chicken.jpg"
+			},
+			{
+				"id": 5,
+				"name": "Caesar Salad",
+				"description": "A classic salad with crisp romaine lettuce, parmesan cheese, croutons, and a creamy Caesar dressing.",
+				"rating": 4.4,
+				"likes": 1050,
+				"image": "https://www.example.com/images/caesar-salad.jpg"
+			},
+			{
+				"id": 6,
+				"name": "Mac and Cheese",
+				"description": "Creamy macaroni and cheese made with a blend of cheeses, baked to perfection.",
+				"rating": 4.6,
+				"likes": 1350,
+				"image": "https://www.example.com/images/mac-and-cheese.jpg"
+			},
+			{
+				"id": 7,
+				"name": "Beef Stew",
+				"description": "Hearty beef stew with tender chunks of beef, potatoes, carrots, and onions in a rich broth.",
+				"rating": 4.8,
+				"likes": 1600,
+				"image": "https://www.example.com/images/beef-stew.jpg"
+			},
+			{
+				"id": 8,
+				"name": "Grilled Cheese Sandwich",
+				"description": "A classic sandwich with melted cheddar cheese and toasted bread.",
+				"rating": 4.1,
+				"likes": 800,
+				"image": "https://www.example.com/images/grilled-cheese.jpg"
+			},
+			{
+				"id": 9,
+				"name": "Fried Catfish",
+				"description": "Crispy fried catfish with a light breading and served with tartar sauce.",
+				"rating": 4.0,
+				"likes": 750,
+				"image": "https://www.example.com/images/catfish.jpg"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"chefPicture": "https://img.freepik.com/free-photo/portrait-happy-male-chef-dressed-uniform_171337-5354.jpg?w=900&t=st=1683005015~exp=1683005615~hmac=59dd77c4b2c7af484bc4d88a1bd28ec396c38be4e0ad6678fe383043e3510673",
+		"chefName": "William Jones",
+		"yearsOfExperience": 8,
+		"numberOfRecipes": 30,
+		"likes": 300,
+		"viewRecipesButton": "https://example.com/chef3/recipes",
+		"country": "United States",
+		"recipes": [
+			{
+				"id": 1,
+				"name": "Classic Cheeseburger",
+				"description": "A juicy, delicious burger topped with melted American cheese, lettuce, tomato, and onion, served on a toasted bun.",
+				"rating": 4.5,
+				"likes": 1200,
+				"image": "https://www.example.com/images/classic-cheeseburger.jpg"
+			},
+			{
+				"id": 2,
+				"name": "BBQ Pulled Pork Sandwich",
+				"description": "Slow-cooked pulled pork in a tangy BBQ sauce, served on a soft bun with coleslaw.",
+				"rating": 4.3,
+				"likes": 950,
+				"image": "https://www.example.com/images/pulled-pork-sandwich.jpg"
+			},
+			{
+				"id": 3,
+				"name": "New England Clam Chowder",
+				"description": "A creamy soup filled with tender clams, diced potatoes, and a hint of bacon.",
+				"rating": 4.7,
+				"likes": 1450,
+				"image": "https://www.example.com/images/clam-chowder.jpg"
+			},
+			{
+				"id": 4,
+				"name": "Fried Chicken",
+				"description": "Crispy fried chicken with a perfectly seasoned coating, served with your choice of sides.",
+				"rating": 4.2,
+				"likes": 870,
+				"image": "https://www.example.com/images/fried-chicken.jpg"
+			},
+			{
+				"id": 5,
+				"name": "Caesar Salad",
+				"description": "A classic salad with crisp romaine lettuce, parmesan cheese, croutons, and a creamy Caesar dressing.",
+				"rating": 4.4,
+				"likes": 1050,
+				"image": "https://www.example.com/images/caesar-salad.jpg"
+			},
+			{
+				"id": 6,
+				"name": "Mac and Cheese",
+				"description": "Creamy macaroni and cheese made with a blend of cheeses, baked to perfection.",
+				"rating": 4.6,
+				"likes": 1350,
+				"image": "https://www.example.com/images/mac-and-cheese.jpg"
+			},
+			{
+				"id": 7,
+				"name": "Beef Stew",
+				"description": "Hearty beef stew with tender chunks of beef, potatoes, carrots, and onions in a rich broth.",
+				"rating": 4.8,
+				"likes": 1600,
+				"image": "https://www.example.com/images/beef-stew.jpg"
+			},
+			{
+				"id": 8,
+				"name": "Grilled Cheese Sandwich",
+				"description": "A classic sandwich with melted cheddar cheese and toasted bread.",
+				"rating": 4.1,
+				"likes": 800,
+				"image": "https://www.example.com/images/grilled-cheese.jpg"
+			},
+			{
+				"id": 9,
+				"name": "Fried Catfish",
+				"description": "Crispy fried catfish with a light breading and served with tartar sauce.",
+				"rating": 4.0,
+				"likes": 750,
+				"image": "https://www.example.com/images/catfish.jpg"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"chefPicture": "https://img.freepik.com/free-photo/female-chef-standing-with-crossed-arms-white-uniform-looking-happy_176474-13476.jpg?w=900&t=st=1683005375~exp=1683005975~hmac=cf592eb05252b4910390ca900f812ee548e31c584bbbecd04ce55636f38cfbf3",
+		"chefName": "Maria Perez",
+		"yearsOfExperience": 12,
+		"numberOfRecipes": 60,
+		"likes": 600,
+		"viewRecipesButton": "https://example.com/chef4/recipes",
+		"country": "United States",
+		"recipes": [
+			{
+				"id": 1,
+				"name": "Classic Cheeseburger",
+				"description": "A juicy, delicious burger topped with melted American cheese, lettuce, tomato, and onion, served on a toasted bun.",
+				"rating": 4.5,
+				"likes": 1200,
+				"image": "https://www.example.com/images/classic-cheeseburger.jpg"
+			},
+			{
+				"id": 2,
+				"name": "BBQ Pulled Pork Sandwich",
+				"description": "Slow-cooked pulled pork in a tangy BBQ sauce, served on a soft bun with coleslaw.",
+				"rating": 4.3,
+				"likes": 950,
+				"image": "https://www.example.com/images/pulled-pork-sandwich.jpg"
+			},
+			{
+				"id": 3,
+				"name": "New England Clam Chowder",
+				"description": "A creamy soup filled with tender clams, diced potatoes, and a hint of bacon.",
+				"rating": 4.7,
+				"likes": 1450,
+				"image": "https://www.example.com/images/clam-chowder.jpg"
+			},
+			{
+				"id": 4,
+				"name": "Fried Chicken",
+				"description": "Crispy fried chicken with a perfectly seasoned coating, served with your choice of sides.",
+				"rating": 4.2,
+				"likes": 870,
+				"image": "https://www.example.com/images/fried-chicken.jpg"
+			},
+			{
+				"id": 5,
+				"name": "Caesar Salad",
+				"description": "A classic salad with crisp romaine lettuce, parmesan cheese, croutons, and a creamy Caesar dressing.",
+				"rating": 4.4,
+				"likes": 1050,
+				"image": "https://www.example.com/images/caesar-salad.jpg"
+			},
+			{
+				"id": 6,
+				"name": "Mac and Cheese",
+				"description": "Creamy macaroni and cheese made with a blend of cheeses, baked to perfection.",
+				"rating": 4.6,
+				"likes": 1350,
+				"image": "https://www.example.com/images/mac-and-cheese.jpg"
+			},
+			{
+				"id": 7,
+				"name": "Beef Stew",
+				"description": "Hearty beef stew with tender chunks of beef, potatoes, carrots, and onions in a rich broth.",
+				"rating": 4.8,
+				"likes": 1600,
+				"image": "https://www.example.com/images/beef-stew.jpg"
+			},
+			{
+				"id": 8,
+				"name": "Grilled Cheese Sandwich",
+				"description": "A classic sandwich with melted cheddar cheese and toasted bread.",
+				"rating": 4.1,
+				"likes": 800,
+				"image": "https://www.example.com/images/grilled-cheese.jpg"
+			},
+			{
+				"id": 9,
+				"name": "Fried Catfish",
+				"description": "Crispy fried catfish with a light breading and served with tartar sauce.",
+				"rating": 4.0,
+				"likes": 750,
+				"image": "https://www.example.com/images/catfish.jpg"
+			}
+		]
+	},
+	{
+		"id": 5,
+		"chefPicture": "https://img.freepik.com/free-photo/medium-shot-chef-holding-wooden-board_23-2148723277.jpg?w=900&t=st=1683005245~exp=1683005845~hmac=cd45291a39665d8ac5f29083805bd3003e191290fbf25736fb47879579cf0114",
+		"chefName": "David Kim",
+		"yearsOfExperience": 3,
+		"numberOfRecipes": 10,
+		"likes": 100,
+		"viewRecipesButton": "https://example.com/chef5/recipes",
+		"country": "United States",
+		"recipes": [
+			{
+				"id": 1,
+				"name": "Classic Cheeseburger",
+				"description": "A juicy, delicious burger topped with melted American cheese, lettuce, tomato, and onion, served on a toasted bun.",
+				"rating": 4.5,
+				"likes": 1200,
+				"image": "https://www.example.com/images/classic-cheeseburger.jpg"
+			},
+			{
+				"id": 2,
+				"name": "BBQ Pulled Pork Sandwich",
+				"description": "Slow-cooked pulled pork in a tangy BBQ sauce, served on a soft bun with coleslaw.",
+				"rating": 4.3,
+				"likes": 950,
+				"image": "https://www.example.com/images/pulled-pork-sandwich.jpg"
+			},
+			{
+				"id": 3,
+				"name": "New England Clam Chowder",
+				"description": "A creamy soup filled with tender clams, diced potatoes, and a hint of bacon.",
+				"rating": 4.7,
+				"likes": 1450,
+				"image": "https://www.example.com/images/clam-chowder.jpg"
+			},
+			{
+				"id": 4,
+				"name": "Fried Chicken",
+				"description": "Crispy fried chicken with a perfectly seasoned coating, served with your choice of sides.",
+				"rating": 4.2,
+				"likes": 870,
+				"image": "https://www.example.com/images/fried-chicken.jpg"
+			},
+			{
+				"id": 5,
+				"name": "Caesar Salad",
+				"description": "A classic salad with crisp romaine lettuce, parmesan cheese, croutons, and a creamy Caesar dressing.",
+				"rating": 4.4,
+				"likes": 1050,
+				"image": "https://www.example.com/images/caesar-salad.jpg"
+			},
+			{
+				"id": 6,
+				"name": "Mac and Cheese",
+				"description": "Creamy macaroni and cheese made with a blend of cheeses, baked to perfection.",
+				"rating": 4.6,
+				"likes": 1350,
+				"image": "https://www.example.com/images/mac-and-cheese.jpg"
+			},
+			{
+				"id": 7,
+				"name": "Beef Stew",
+				"description": "Hearty beef stew with tender chunks of beef, potatoes, carrots, and onions in a rich broth.",
+				"rating": 4.8,
+				"likes": 1600,
+				"image": "https://www.example.com/images/beef-stew.jpg"
+			},
+			{
+				"id": 8,
+				"name": "Grilled Cheese Sandwich",
+				"description": "A classic sandwich with melted cheddar cheese and toasted bread.",
+				"rating": 4.1,
+				"likes": 800,
+				"image": "https://www.example.com/images/grilled-cheese.jpg"
+			},
+			{
+				"id": 9,
+				"name": "Fried Catfish",
+				"description": "Crispy fried catfish with a light breading and served with tartar sauce.",
+				"rating": 4.0,
+				"likes": 750,
+				"image": "https://www.example.com/images/catfish.jpg"
+			}
+		]
+	},
+	{
+		"id": 6,
+		"chefPicture": "https://img.freepik.com/free-photo/female-chef-white-uniform-pointing-finger-herself-looking-surprised_176474-13384.jpg?w=900&t=st=1683005511~exp=1683006111~hmac=14b9e65d6eda49365e386d934e0b310fa0187bdd495475096d31b8acd63971bd",
+		"chefName": "Emily Chen",
+		"yearsOfExperience": 6,
+		"numberOfRecipes": 25,
+		"likes": 250,
+		"viewRecipesButton": "https://example.com/chef6/recipes",
+		"country": "United States",
+		"recipes": [
+			{
+				"id": 1,
+				"name": "Classic Cheeseburger",
+				"description": "A juicy, delicious burger topped with melted American cheese, lettuce, tomato, and onion, served on a toasted bun.",
+				"rating": 4.5,
+				"likes": 1200,
+				"image": "https://www.example.com/images/classic-cheeseburger.jpg"
+			},
+			{
+				"id": 2,
+				"name": "BBQ Pulled Pork Sandwich",
+				"description": "Slow-cooked pulled pork in a tangy BBQ sauce, served on a soft bun with coleslaw.",
+				"rating": 4.3,
+				"likes": 950,
+				"image": "https://www.example.com/images/pulled-pork-sandwich.jpg"
+			},
+			{
+				"id": 3,
+				"name": "New England Clam Chowder",
+				"description": "A creamy soup filled with tender clams, diced potatoes, and a hint of bacon.",
+				"rating": 4.7,
+				"likes": 1450,
+				"image": "https://www.example.com/images/clam-chowder.jpg"
+			},
+			{
+				"id": 4,
+				"name": "Fried Chicken",
+				"description": "Crispy fried chicken with a perfectly seasoned coating, served with your choice of sides.",
+				"rating": 4.2,
+				"likes": 870,
+				"image": "https://www.example.com/images/fried-chicken.jpg"
+			},
+			{
+				"id": 5,
+				"name": "Caesar Salad",
+				"description": "A classic salad with crisp romaine lettuce, parmesan cheese, croutons, and a creamy Caesar dressing.",
+				"rating": 4.4,
+				"likes": 1050,
+				"image": "https://www.example.com/images/caesar-salad.jpg"
+			},
+			{
+				"id": 6,
+				"name": "Mac and Cheese",
+				"description": "Creamy macaroni and cheese made with a blend of cheeses, baked to perfection.",
+				"rating": 4.6,
+				"likes": 1350,
+				"image": "https://www.example.com/images/mac-and-cheese.jpg"
+			},
+			{
+				"id": 7,
+				"name": "Beef Stew",
+				"description": "Hearty beef stew with tender chunks of beef, potatoes, carrots, and onions in a rich broth.",
+				"rating": 4.8,
+				"likes": 1600,
+				"image": "https://www.example.com/images/beef-stew.jpg"
+			},
+			{
+				"id": 8,
+				"name": "Grilled Cheese Sandwich",
+				"description": "A classic sandwich with melted cheddar cheese and toasted bread.",
+				"rating": 4.1,
+				"likes": 800,
+				"image": "https://www.example.com/images/grilled-cheese.jpg"
+			},
+			{
+				"id": 9,
+				"name": "Fried Catfish",
+				"description": "Crispy fried catfish with a light breading and served with tartar sauce.",
+				"rating": 4.0,
+				"likes": 750,
+				"image": "https://www.example.com/images/catfish.jpg"
+			}
+		]
+	}
+]
