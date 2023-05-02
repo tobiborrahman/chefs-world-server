@@ -1,0 +1,56 @@
+[
+	{
+		"chefPicture": "https://example.com/chef1.jpg",
+		"chefName": "John Smith",
+		"yearsOfExperience": 10,
+		"numberOfRecipes": 50,
+		"likes": 500,
+		"viewRecipesButton": "https://example.com/chef1/recipes",
+		"country": "United States"
+	},
+	{
+		"chefPicture": "https://example.com/chef2.jpg",
+		"chefName": "Anna Lee",
+		"yearsOfExperience": 5,
+		"numberOfRecipes": 20,
+		"likes": 200,
+		"viewRecipesButton": "https://example.com/chef2/recipes",
+		"country": "United States"
+	},
+	{
+		"chefPicture": "https://example.com/chef3.jpg",
+		"chefName": "William Jones",
+		"yearsOfExperience": 8,
+		"numberOfRecipes": 30,
+		"likes": 300,
+		"viewRecipesButton": "https://example.com/chef3/recipes",
+		"country": "United States"
+	},
+	{
+		"chefPicture": "https://example.com/chef4.jpg",
+		"chefName": "Maria Perez",
+		"yearsOfExperience": 12,
+		"numberOfRecipes": 60,
+		"likes": 600,
+		"viewRecipesButton": "https://example.com/chef4/recipes",
+		"country": "United States"
+	},
+	{
+		"chefPicture": "https://example.com/chef5.jpg",
+		"chefName": "David Kim",
+		"yearsOfExperience": 3,
+		"numberOfRecipes": 10,
+		"likes": 100,
+		"viewRecipesButton": "https://example.com/chef5/recipes",
+		"country": "United States"
+	},
+	{
+		"chefPicture": "https://example.com/chef6.jpg",
+		"chefName": "Emily Chen",
+		"yearsOfExperience": 6,
+		"numberOfRecipes": 25,
+		"likes": 250,
+		"viewRecipesButton": "https://example.com/chef6/recipes",
+		"country": "United States"
+	}
+]
