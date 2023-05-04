@@ -10,76 +10,48 @@
 		"country": "United States",
 		"recipes": [
 			{
-				"id": 1,
-				"name": "Classic Cheeseburger",
-				"description": "A juicy, delicious burger topped with melted American cheese, lettuce, tomato, and onion, served on a toasted bun.",
-				"rating": 4.5,
-				"likes": 1200,
-				"image": "https://www.example.com/images/classic-cheeseburger.jpg"
-			},
-			{
-				"id": 2,
-				"name": "BBQ Pulled Pork Sandwich",
-				"description": "Slow-cooked pulled pork in a tangy BBQ sauce, served on a soft bun with coleslaw.",
-				"rating": 4.3,
-				"likes": 950,
-				"image": "https://www.example.com/images/pulled-pork-sandwich.jpg"
-			},
-			{
-				"id": 3,
-				"name": "New England Clam Chowder",
-				"description": "A creamy soup filled with tender clams, diced potatoes, and a hint of bacon.",
-				"rating": 4.7,
-				"likes": 1450,
-				"image": "https://www.example.com/images/clam-chowder.jpg"
-			},
-			{
-				"id": 4,
-				"name": "Fried Chicken",
-				"description": "Crispy fried chicken with a perfectly seasoned coating, served with your choice of sides.",
-				"rating": 4.2,
-				"likes": 870,
-				"image": "https://www.example.com/images/fried-chicken.jpg"
-			},
-			{
-				"id": 5,
-				"name": "Caesar Salad",
-				"description": "A classic salad with crisp romaine lettuce, parmesan cheese, croutons, and a creamy Caesar dressing.",
-				"rating": 4.4,
-				"likes": 1050,
-				"image": "https://www.example.com/images/caesar-salad.jpg"
-			},
-			{
-				"id": 6,
-				"name": "Mac and Cheese",
-				"description": "Creamy macaroni and cheese made with a blend of cheeses, baked to perfection.",
-				"rating": 4.6,
-				"likes": 1350,
-				"image": "https://www.example.com/images/mac-and-cheese.jpg"
-			},
-			{
-				"id": 7,
-				"name": "Beef Stew",
-				"description": "Hearty beef stew with tender chunks of beef, potatoes, carrots, and onions in a rich broth.",
+				"recipe_name": "Roast Chicken",
+				"ingredients": [
+					"whole chicken",
+					"lemon",
+					"garlic",
+					"thyme",
+					"butter",
+					"salt",
+					"pepper"
+				],
+				"cooking_method": "Preheat oven to 425°F. Rinse chicken, pat dry, and place on a baking dish. Stuff the chicken cavity with lemon, garlic, and thyme. Rub butter all over the chicken and sprinkle with salt and pepper. Roast in the oven for 1 hour 15 minutes or until fully cooked.",
 				"rating": 4.8,
-				"likes": 1600,
-				"image": "https://www.example.com/images/beef-stew.jpg"
+				"favorite": false
 			},
 			{
-				"id": 8,
-				"name": "Grilled Cheese Sandwich",
-				"description": "A classic sandwich with melted cheddar cheese and toasted bread.",
-				"rating": 4.1,
-				"likes": 800,
-				"image": "https://www.example.com/images/grilled-cheese.jpg"
+				"recipe_name": "Homemade Granola Bars",
+				"ingredients": [
+					"oats",
+					"almonds",
+					"coconut",
+					"honey",
+					"brown sugar",
+					"butter",
+					"vanilla extract"
+				],
+				"cooking_method": "Preheat oven to 350°F. Mix together oats, almonds, and coconut in a bowl. In a saucepan, melt honey, brown sugar, and butter over low heat. Add vanilla extract and pour over the oat mixture, stirring until well combined. Press the mixture into a greased baking dish and bake for 20-25 minutes. Let cool and cut into bars.",
+				"rating": 4.7,
+				"favorite": false
 			},
 			{
-				"id": 9,
-				"name": "Fried Catfish",
-				"description": "Crispy fried catfish with a light breading and served with tartar sauce.",
-				"rating": 4.0,
-				"likes": 750,
-				"image": "https://www.example.com/images/catfish.jpg"
+				"recipe_name": "Parmesan Roasted Broccoli",
+				"ingredients": [
+					"broccoli",
+					"olive oil",
+					"garlic",
+					"Parmesan cheese",
+					"salt",
+					"pepper"
+				],
+				"cooking_method": "Preheat oven to 425°F. Cut broccoli into florets and toss with olive oil, minced garlic, grated Parmesan cheese, salt, and pepper. Spread the mixture onto a baking sheet and roast in the oven for 20-25 minutes or until tender and lightly browned.",
+				"rating": 4.6,
+				"favorite": false
 			}
 		]
 	},
@@ -94,76 +66,49 @@
 		"country": "United States",
 		"recipes": [
 			{
-				"id": 1,
-				"name": "Classic Cheeseburger",
-				"description": "A juicy, delicious burger topped with melted American cheese, lettuce, tomato, and onion, served on a toasted bun.",
+				"recipe_name": "Beef Wellington",
+				"ingredients": [
+					"beef tenderloin",
+					"puff pastry",
+					"mushrooms",
+					"shallots",
+					"garlic",
+					"Dijon mustard",
+					"egg yolk"
+				],
+				"cooking_method": "Preheat oven to 425°F. Season the beef tenderloin with salt and pepper, and sear it in a hot pan. Set aside to cool. In the same pan, cook chopped mushrooms, shallots, and garlic until softened. Spread Dijon mustard over the beef and top with the mushroom mixture. Roll out puff pastry and wrap the beef in it, brushing with egg yolk. Bake in the oven for 35-40 minutes or until golden brown.",
+				"rating": 4.9,
+				"favorite": false
+			},
+			{
+				"recipe_name": "Fish and Chips",
+				"ingredients": [
+					"cod fillets",
+					"potatoes",
+					"all-purpose flour",
+					"beer",
+					"baking powder",
+					"salt",
+					"pepper"
+				],
+				"cooking_method": "Peel and slice potatoes into fries, and soak in cold water. Mix flour, beer, baking powder, salt, and pepper in a bowl to make the batter. Dip the cod fillets in the batter and fry in hot oil until golden brown. Fry the potatoesuntil crispy and golden. Serve the fish and chips with tartar sauce and lemon wedges.",
 				"rating": 4.5,
-				"likes": 1200,
-				"image": "https://www.example.com/images/classic-cheeseburger.jpg"
+				"favorite": false
 			},
 			{
-				"id": 2,
-				"name": "BBQ Pulled Pork Sandwich",
-				"description": "Slow-cooked pulled pork in a tangy BBQ sauce, served on a soft bun with coleslaw.",
-				"rating": 4.3,
-				"likes": 950,
-				"image": "https://www.example.com/images/pulled-pork-sandwich.jpg"
-			},
-			{
-				"id": 3,
-				"name": "New England Clam Chowder",
-				"description": "A creamy soup filled with tender clams, diced potatoes, and a hint of bacon.",
+				"recipe_name": "Beef Burger with Blue Cheese",
+				"ingredients": [
+					"ground beef",
+					"blue cheese",
+					"onion",
+					"lettuce",
+					"tomato",
+					"mayonnaise",
+					"hamburger buns"
+				],
+				"cooking_method": "Mix ground beef with salt and pepper, and form into patties. Cook the patties in a hot pan or on a grill until cooked through. Crumble blue cheese on top of the patties while still hot. Toast the hamburger buns and assemble the burgers with lettuce, tomato, sliced onion, and mayonnaise.",
 				"rating": 4.7,
-				"likes": 1450,
-				"image": "https://www.example.com/images/clam-chowder.jpg"
-			},
-			{
-				"id": 4,
-				"name": "Fried Chicken",
-				"description": "Crispy fried chicken with a perfectly seasoned coating, served with your choice of sides.",
-				"rating": 4.2,
-				"likes": 870,
-				"image": "https://www.example.com/images/fried-chicken.jpg"
-			},
-			{
-				"id": 5,
-				"name": "Caesar Salad",
-				"description": "A classic salad with crisp romaine lettuce, parmesan cheese, croutons, and a creamy Caesar dressing.",
-				"rating": 4.4,
-				"likes": 1050,
-				"image": "https://www.example.com/images/caesar-salad.jpg"
-			},
-			{
-				"id": 6,
-				"name": "Mac and Cheese",
-				"description": "Creamy macaroni and cheese made with a blend of cheeses, baked to perfection.",
-				"rating": 4.6,
-				"likes": 1350,
-				"image": "https://www.example.com/images/mac-and-cheese.jpg"
-			},
-			{
-				"id": 7,
-				"name": "Beef Stew",
-				"description": "Hearty beef stew with tender chunks of beef, potatoes, carrots, and onions in a rich broth.",
-				"rating": 4.8,
-				"likes": 1600,
-				"image": "https://www.example.com/images/beef-stew.jpg"
-			},
-			{
-				"id": 8,
-				"name": "Grilled Cheese Sandwich",
-				"description": "A classic sandwich with melted cheddar cheese and toasted bread.",
-				"rating": 4.1,
-				"likes": 800,
-				"image": "https://www.example.com/images/grilled-cheese.jpg"
-			},
-			{
-				"id": 9,
-				"name": "Fried Catfish",
-				"description": "Crispy fried catfish with a light breading and served with tartar sauce.",
-				"rating": 4.0,
-				"likes": 750,
-				"image": "https://www.example.com/images/catfish.jpg"
+				"favorite": false
 			}
 		]
 	},
@@ -178,76 +123,49 @@
 		"country": "United States",
 		"recipes": [
 			{
-				"id": 1,
-				"name": "Classic Cheeseburger",
-				"description": "A juicy, delicious burger topped with melted American cheese, lettuce, tomato, and onion, served on a toasted bun.",
-				"rating": 4.5,
-				"likes": 1200,
-				"image": "https://www.example.com/images/classic-cheeseburger.jpg"
-			},
-			{
-				"id": 2,
-				"name": "BBQ Pulled Pork Sandwich",
-				"description": "Slow-cooked pulled pork in a tangy BBQ sauce, served on a soft bun with coleslaw.",
-				"rating": 4.3,
-				"likes": 950,
-				"image": "https://www.example.com/images/pulled-pork-sandwich.jpg"
-			},
-			{
-				"id": 3,
-				"name": "New England Clam Chowder",
-				"description": "A creamy soup filled with tender clams, diced potatoes, and a hint of bacon.",
-				"rating": 4.7,
-				"likes": 1450,
-				"image": "https://www.example.com/images/clam-chowder.jpg"
-			},
-			{
-				"id": 4,
-				"name": "Fried Chicken",
-				"description": "Crispy fried chicken with a perfectly seasoned coating, served with your choice of sides.",
-				"rating": 4.2,
-				"likes": 870,
-				"image": "https://www.example.com/images/fried-chicken.jpg"
-			},
-			{
-				"id": 5,
-				"name": "Caesar Salad",
-				"description": "A classic salad with crisp romaine lettuce, parmesan cheese, croutons, and a creamy Caesar dressing.",
-				"rating": 4.4,
-				"likes": 1050,
-				"image": "https://www.example.com/images/caesar-salad.jpg"
-			},
-			{
-				"id": 6,
-				"name": "Mac and Cheese",
-				"description": "Creamy macaroni and cheese made with a blend of cheeses, baked to perfection.",
-				"rating": 4.6,
-				"likes": 1350,
-				"image": "https://www.example.com/images/mac-and-cheese.jpg"
-			},
-			{
-				"id": 7,
-				"name": "Beef Stew",
-				"description": "Hearty beef stew with tender chunks of beef, potatoes, carrots, and onions in a rich broth.",
+				"recipe_name": "Beef Bourguignon",
+				"ingredients": [
+					"beef chuck",
+					"bacon",
+					"onion",
+					"carrots",
+					"garlic",
+					"red wine",
+					"beef broth"
+				],
+				"cooking_method": "Preheat oven to 325°F. Cut beef into cubes and cook bacon until crisp. Brown the beef in the bacon fat and remove from the pan. Cook chopped onion, carrots, and garlic in the same pan. Add the beef back into the pan with red wine and beef broth. Bake in the oven for 2-3 hours or until the beef is tender. Serve with crusty bread.",
 				"rating": 4.8,
-				"likes": 1600,
-				"image": "https://www.example.com/images/beef-stew.jpg"
+				"favorite": false
 			},
 			{
-				"id": 8,
-				"name": "Grilled Cheese Sandwich",
-				"description": "A classic sandwich with melted cheddar cheese and toasted bread.",
-				"rating": 4.1,
-				"likes": 800,
-				"image": "https://www.example.com/images/grilled-cheese.jpg"
+				"recipe_name": "Quiche Lorraine",
+				"ingredients": [
+					"pie crust",
+					"bacon",
+					"Swiss cheese",
+					"eggs",
+					"heavy cream",
+					"salt",
+					"pepper"
+				],
+				"cooking_method": "Preheat oven to 375°F. Cook bacon and crumble into small pieces. Shred Swiss cheese. Beat eggs and whisk with heavy cream, salt, and pepper. Roll out pie crust and place it in a baking dish. Layer bacon and cheese on the bottom, and pour the egg mixture over the top. Bake in the oven for 35-40 minutes or until set and golden brown.",
+				"rating": 4.7,
+				"favorite": false
 			},
 			{
-				"id": 9,
-				"name": "Fried Catfish",
-				"description": "Crispy fried catfish with a light breading and served with tartar sauce.",
-				"rating": 4.0,
-				"likes": 750,
-				"image": "https://www.example.com/images/catfish.jpg"
+				"recipe_name": "Boeuf à la Mode",
+				"ingredients": [
+					"beef round",
+					"bacon",
+					"onion",
+					"carrots",
+					"red wine",
+					"beef broth",
+					"tomato paste"
+				],
+				"cooking_method": "Preheat oven to 325°F. Cut beef round into cubes and cook bacon until crisp. Brown the beef in the bacon fat and remove from the pan. Cook chopped onion and carrots in the same pan. Add the beef back into the pan with red wine, beef broth, and tomato paste. Bake in the oven for 3-4 hours or until the beef is tender. Serve with mashed potatoes.",
+				"rating": 4.6,
+				"favorite": false
 			}
 		]
 	},
@@ -262,76 +180,47 @@
 		"country": "United States",
 		"recipes": [
 			{
-				"id": 1,
-				"name": "Classic Cheeseburger",
-				"description": "A juicy, delicious burger topped with melted American cheese, lettuce, tomato, and onion, served on a toasted bun.",
-				"rating": 4.5,
-				"likes": 1200,
-				"image": "https://www.example.com/images/classic-cheeseburger.jpg"
+				"recipe_name": "Grilled Ribeye Steak",
+				"ingredients": [
+					"ribeye steak",
+					"olive oil",
+					"salt",
+					"pepper",
+					"chimichurri sauce",
+					"lemon juice"
+				],
+				"cooking_method": "Preheat grill to high heat. Brush ribeye steak with olive oil and season generously with salt and pepper. Grill the steak for 4-5 minutes on each side, or until it reaches your desired level of doneness. Let the steak rest for 5 minutes before slicing it against the grain. Serve with chimichurri sauce and a squeeze of fresh lemon juice.",
+				"rating": 4.9,
+				"favorite": false
 			},
 			{
-				"id": 2,
-				"name": "BBQ Pulled Pork Sandwich",
-				"description": "Slow-cooked pulled pork in a tangy BBQ sauce, served on a soft bun with coleslaw.",
-				"rating": 4.3,
-				"likes": 950,
-				"image": "https://www.example.com/images/pulled-pork-sandwich.jpg"
-			},
-			{
-				"id": 3,
-				"name": "New England Clam Chowder",
-				"description": "A creamy soup filled with tender clams, diced potatoes, and a hint of bacon.",
-				"rating": 4.7,
-				"likes": 1450,
-				"image": "https://www.example.com/images/clam-chowder.jpg"
-			},
-			{
-				"id": 4,
-				"name": "Fried Chicken",
-				"description": "Crispy fried chicken with a perfectly seasoned coating, served with your choice of sides.",
-				"rating": 4.2,
-				"likes": 870,
-				"image": "https://www.example.com/images/fried-chicken.jpg"
-			},
-			{
-				"id": 5,
-				"name": "Caesar Salad",
-				"description": "A classic salad with crisp romaine lettuce, parmesan cheese, croutons, and a creamy Caesar dressing.",
-				"rating": 4.4,
-				"likes": 1050,
-				"image": "https://www.example.com/images/caesar-salad.jpg"
-			},
-			{
-				"id": 6,
-				"name": "Mac and Cheese",
-				"description": "Creamy macaroni and cheese made with a blend of cheeses, baked to perfection.",
-				"rating": 4.6,
-				"likes": 1350,
-				"image": "https://www.example.com/images/mac-and-cheese.jpg"
-			},
-			{
-				"id": 7,
-				"name": "Beef Stew",
-				"description": "Hearty beef stew with tender chunks of beef, potatoes, carrots, and onions in a rich broth.",
+				"recipe_name": "Smoked Baby Back Ribs",
+				"ingredients": [
+					"baby back ribs",
+					"brown sugar",
+					"paprika",
+					"garlic powder",
+					"salt",
+					"pepper",
+					"barbecue sauce"
+				],
+				"cooking_method": "Preheat smoker to 225°F. Mix brown sugar, paprika, garlic powder, salt, and pepper to make a dry rub. Rub the mixture onto the baby back ribs. Place the ribs on the smoker and smoke for 4-5 hours, or until the meat is tender and pulls away from the bone. Baste the ribs with barbecue sauce during the last 30 minutes of cooking. Let the ribs rest for 10-15 minutes before slicing and serving.",
 				"rating": 4.8,
-				"likes": 1600,
-				"image": "https://www.example.com/images/beef-stew.jpg"
+				"favorite": false
 			},
 			{
-				"id": 8,
-				"name": "Grilled Cheese Sandwich",
-				"description": "A classic sandwich with melted cheddar cheese and toasted bread.",
-				"rating": 4.1,
-				"likes": 800,
-				"image": "https://www.example.com/images/grilled-cheese.jpg"
-			},
-			{
-				"id": 9,
-				"name": "Fried Catfish",
-				"description": "Crispy fried catfish with a light breading and served with tartar sauce.",
-				"rating": 4.0,
-				"likes": 750,
-				"image": "https://www.example.com/images/catfish.jpg"
+				"recipe_name": "Grilled Shrimp with Garlic and Lemon",
+				"ingredients": [
+					"large shrimp",
+					"olive oil",
+					"garlic",
+					"lemon",
+					"salt",
+					"pepper"
+				],
+				"cooking_method": "Preheat grill to medium heat. Toss large shrimp with olive oil, minced garlic, and the juice of one lemon. Season with salt and pepper. Grill the shrimp for 2-3 minutes on each side, or until they turn pink and opaque. Serve hot with lemon wedges.",
+				"rating": 4.7,
+				"favorite": false
 			}
 		]
 	},
@@ -346,76 +235,47 @@
 		"country": "United States",
 		"recipes": [
 			{
-				"id": 1,
-				"name": "Classic Cheeseburger",
-				"description": "A juicy, delicious burger topped with melted American cheese, lettuce, tomato, and onion, served on a toasted bun.",
-				"rating": 4.5,
-				"likes": 1200,
-				"image": "https://www.example.com/images/classic-cheeseburger.jpg"
+				"recipe_name": "Grilled Ribeye Steak",
+				"ingredients": [
+					"ribeye steak",
+					"olive oil",
+					"salt",
+					"pepper",
+					"chimichurri sauce",
+					"lemon juice"
+				],
+				"cooking_method": "Preheat grill to high heat. Brush ribeye steak with olive oil and season generously with salt and pepper. Grill the steak for 4-5 minutes on each side, or until it reaches your desired level of doneness. Let the steak rest for 5 minutes before slicing it against the grain. Serve with chimichurri sauce and a squeeze of fresh lemon juice.",
+				"rating": 4.9,
+				"favorite": false
 			},
 			{
-				"id": 2,
-				"name": "BBQ Pulled Pork Sandwich",
-				"description": "Slow-cooked pulled pork in a tangy BBQ sauce, served on a soft bun with coleslaw.",
-				"rating": 4.3,
-				"likes": 950,
-				"image": "https://www.example.com/images/pulled-pork-sandwich.jpg"
-			},
-			{
-				"id": 3,
-				"name": "New England Clam Chowder",
-				"description": "A creamy soup filled with tender clams, diced potatoes, and a hint of bacon.",
-				"rating": 4.7,
-				"likes": 1450,
-				"image": "https://www.example.com/images/clam-chowder.jpg"
-			},
-			{
-				"id": 4,
-				"name": "Fried Chicken",
-				"description": "Crispy fried chicken with a perfectly seasoned coating, served with your choice of sides.",
-				"rating": 4.2,
-				"likes": 870,
-				"image": "https://www.example.com/images/fried-chicken.jpg"
-			},
-			{
-				"id": 5,
-				"name": "Caesar Salad",
-				"description": "A classic salad with crisp romaine lettuce, parmesan cheese, croutons, and a creamy Caesar dressing.",
-				"rating": 4.4,
-				"likes": 1050,
-				"image": "https://www.example.com/images/caesar-salad.jpg"
-			},
-			{
-				"id": 6,
-				"name": "Mac and Cheese",
-				"description": "Creamy macaroni and cheese made with a blend of cheeses, baked to perfection.",
-				"rating": 4.6,
-				"likes": 1350,
-				"image": "https://www.example.com/images/mac-and-cheese.jpg"
-			},
-			{
-				"id": 7,
-				"name": "Beef Stew",
-				"description": "Hearty beef stew with tender chunks of beef, potatoes, carrots, and onions in a rich broth.",
+				"recipe_name": "Smoked Baby Back Ribs",
+				"ingredients": [
+					"baby back ribs",
+					"brown sugar",
+					"paprika",
+					"garlic powder",
+					"salt",
+					"pepper",
+					"barbecue sauce"
+				],
+				"cooking_method": "Preheat smoker to 225°F. Mix brown sugar, paprika, garlic powder, salt, and pepper to make a dry rub. Rub the mixture onto the baby back ribs. Place the ribs on the smoker and smoke for 4-5 hours, or until the meat is tender and pulls away from the bone. Baste the ribs with barbecue sauce during the last 30 minutes of cooking. Let the ribs rest for 10-15 minutes before slicing and serving.",
 				"rating": 4.8,
-				"likes": 1600,
-				"image": "https://www.example.com/images/beef-stew.jpg"
+				"favorite": false
 			},
 			{
-				"id": 8,
-				"name": "Grilled Cheese Sandwich",
-				"description": "A classic sandwich with melted cheddar cheese and toasted bread.",
-				"rating": 4.1,
-				"likes": 800,
-				"image": "https://www.example.com/images/grilled-cheese.jpg"
-			},
-			{
-				"id": 9,
-				"name": "Fried Catfish",
-				"description": "Crispy fried catfish with a light breading and served with tartar sauce.",
-				"rating": 4.0,
-				"likes": 750,
-				"image": "https://www.example.com/images/catfish.jpg"
+				"recipe_name": "Grilled Shrimp with Garlic and Lemon",
+				"ingredients": [
+					"large shrimp",
+					"olive oil",
+					"garlic",
+					"lemon",
+					"salt",
+					"pepper"
+				],
+				"cooking_method": "Preheat grill to medium heat. Toss large shrimp with olive oil, minced garlic, and the juice of one lemon. Season with salt and pepper. Grill the shrimp for 2-3 minutes on each side, or until they turn pink and opaque. Serve hot with lemon wedges.",
+				"rating": 4.7,
+				"favorite": false
 			}
 		]
 	},
@@ -430,76 +290,49 @@
 		"country": "United States",
 		"recipes": [
 			{
-				"id": 1,
-				"name": "Classic Cheeseburger",
-				"description": "A juicy, delicious burger topped with melted American cheese, lettuce, tomato, and onion, served on a toasted bun.",
-				"rating": 4.5,
-				"likes": 1200,
-				"image": "https://www.example.com/images/classic-cheeseburger.jpg"
-			},
-			{
-				"id": 2,
-				"name": "BBQ Pulled Pork Sandwich",
-				"description": "Slow-cooked pulled pork in a tangy BBQ sauce, served on a soft bun with coleslaw.",
-				"rating": 4.3,
-				"likes": 950,
-				"image": "https://www.example.com/images/pulled-pork-sandwich.jpg"
-			},
-			{
-				"id": 3,
-				"name": "New England Clam Chowder",
-				"description": "A creamy soup filled with tender clams, diced potatoes, and a hint of bacon.",
-				"rating": 4.7,
-				"likes": 1450,
-				"image": "https://www.example.com/images/clam-chowder.jpg"
-			},
-			{
-				"id": 4,
-				"name": "Fried Chicken",
-				"description": "Crispy fried chicken with a perfectly seasoned coating, served with your choice of sides.",
-				"rating": 4.2,
-				"likes": 870,
-				"image": "https://www.example.com/images/fried-chicken.jpg"
-			},
-			{
-				"id": 5,
-				"name": "Caesar Salad",
-				"description": "A classic salad with crisp romaine lettuce, parmesan cheese, croutons, and a creamy Caesar dressing.",
-				"rating": 4.4,
-				"likes": 1050,
-				"image": "https://www.example.com/images/caesar-salad.jpg"
-			},
-			{
-				"id": 6,
-				"name": "Mac and Cheese",
-				"description": "Creamy macaroni and cheese made with a blend of cheeses, baked to perfection.",
+				"recipe_name": "Chicken Parmesan",
+				"ingredients": [
+					"boneless chicken breast",
+					"flour",
+					"eggs",
+					"breadcrumbs",
+					"marinara sauce",
+					"mozzarella cheese",
+					"parmesan cheese"
+				],
+				"cooking_method": "Preheat oven to 400°F. Pound boneless chicken breast to an even thickness. Coat the chicken in flour, then beaten eggs, and finally breadcrumbs. Heat some oil in a skillet and cook the chicken until golden brown on both sides. Transfer the chicken to a baking dish and top with marinara sauce, mozzarella cheese, and parmesan cheese. Bake for 15-20 minutes, or until the cheese is melted and bubbly.",
 				"rating": 4.6,
-				"likes": 1350,
-				"image": "https://www.example.com/images/mac-and-cheese.jpg"
+				"favorite": false
 			},
 			{
-				"id": 7,
-				"name": "Beef Stew",
-				"description": "Hearty beef stew with tender chunks of beef, potatoes, carrots, and onions in a rich broth.",
-				"rating": 4.8,
-				"likes": 1600,
-				"image": "https://www.example.com/images/beef-stew.jpg"
+				"recipe_name": "Garlic Shrimp Scampi",
+				"ingredients": [
+					"large shrimp",
+					"garlic",
+					"butter",
+					"white wine",
+					"lemon",
+					"parsley",
+					"linguine pasta"
+				],
+				"cooking_method": "Cook linguine pasta according to package instructions. Meanwhile, melt butter in a skillet and add minced garlic. Cook for 1-2 minutes until fragrant. Add large shrimp and cook until they turn pink and opaque. Pour in white wine and the juice of one lemon. Add cooked linguine and toss with chopped parsley. Serve hot.",
+				"rating": 4.5,
+				"favorite": false
 			},
 			{
-				"id": 8,
-				"name": "Grilled Cheese Sandwich",
-				"description": "A classic sandwich with melted cheddar cheese and toasted bread.",
-				"rating": 4.1,
-				"likes": 800,
-				"image": "https://www.example.com/images/grilled-cheese.jpg"
-			},
-			{
-				"id": 9,
-				"name": "Fried Catfish",
-				"description": "Crispy fried catfish with a light breading and served with tartar sauce.",
-				"rating": 4.0,
-				"likes": 750,
-				"image": "https://www.example.com/images/catfish.jpg"
+				"recipe_name": "Beef and Broccoli Stir Fry",
+				"ingredients": [
+					"beef sirloin",
+					"broccoli",
+					"soy sauce",
+					"brown sugar",
+					"garlic",
+					"cornstarch",
+					"rice"
+				],
+				"cooking_method": "Slice beef sirloin into thin strips. Mix soy sauce, brown sugar, minced garlic, and cornstarch to make a marinade. Marinate the beef for at least 30 minutes. Heat oil in a wok or skillet over high heat. Add the beef and stir-fry for 2-3 minutes, or until browned. Remove the beef and set aside. In the same pan, stir-fry broccoli florets until they are tender. Add the beef back to the pan and toss with the broccoli. Serve hot over rice.",
+				"rating": 4.4,
+				"favorite": false
 			}
 		]
 	}
